@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddEvent"
+    android:orientation="vertical"
+    android:background="@drawable/bggradient"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:text="Add a New Event" />
+
+    <EditText
+        android:id="@+id/EventName"
+        android:layout_width="300dp"
+        android:layout_height="50sp"
+        android:ems="10"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:inputType="text"
+        android:hint="Event Name"
+        android:textColorHint="@color/white"/>
+
+
+
+    <EditText
+        android:id="@+id/EventLocation"
+        android:layout_width="300dp"
+        android:layout_height="50sp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:layout_marginTop="166dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:inputType="text"
+        android:hint="Event Location"
+        android:textColorHint="@color/white"/>
+
+    <TextView
+        android:id="@+id/abc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date:"
+        android:textColor="@color/white"
+        android:layout_marginTop="226dp"
+        android:layout_marginLeft="57dp"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:weightSum="5"
+        android:layout_below="@+id/abc"
+        >
+
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="40dp"
+            android:layout_height="50sp"
+            android:ems="10"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:inputType="text"
+            android:hint="dd"
+            android:gravity="center"
+            android:textColorHint="@color/white"/>
+
+        <EditText
+            android:id="@+id/mm"
+            android:layout_width="40dp"
+            android:layout_height="50sp"
+            android:ems="10"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:inputType="text"
+            android:hint="mm"
+            android:gravity="center"
+            android:textColorHint="@color/white"/>
+
+        <EditText
+            android:id="@+id/yy"
+            android:layout_width="40dp"
+            android:layout_height="50sp"
+            android:ems="10"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:inputType="text"
+            android:hint="yy"
+            android:gravity="center"
+            android:textColorHint="@color/white"/>
+
+        <EditText
+            android:id="@+id/hrs"
+            android:layout_width="40dp"
+            android:layout_height="50sp"
+            android:ems="10"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:inputType="text"
+            android:hint="hh"
+            android:gravity="center"
+            android:textColorHint="@color/white"/>
+
+        <EditText
+            android:id="@+id/mins"
+            android:layout_width="40dp"
+            android:layout_height="50sp"
+            android:ems="10"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:inputType="text"
+            android:hint="mm"
+            android:gravity="center"
+            android:textColorHint="@color/white"/>
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/type"
+        android:layout_width="300dp"
+        android:layout_height="50sp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:layout_marginTop="282dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:inputType="text"
+        android:hint="Event Type"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/desc"
+        android:layout_width="300dp"
+        android:layout_height="50sp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:layout_marginTop="328dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:inputType="text"
+        android:hint="Enter Description"
+        android:textColorHint="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/image"
+        android:layout_width="300dp"
+        android:layout_height="50sp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:layout_marginTop="374dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:inputType="text"
+        android:hint="Enter The URL for the Image"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="300dp"
+        android:layout_height="50sp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:layout_marginTop="420dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:hint="Price of a Ticket"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/orgno"
+        android:layout_width="300dp"
+        android:layout_height="50sp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:layout_marginTop="490dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:hint="Your Contact Number"
+        android:textColorHint="@color/white"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/button1"
+        android:text="Add The Event!"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:padding="5sp"
+        android:onClick="addEve"
+        android:textAlignment="center"
+        />
+
+</RelativeLayout>
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/bggradient">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/e_photo"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_height="150dp" />
+
+        <TextView
+            android:id="@+id/e_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="24sp"
+            android:ellipsize="end"
+            android:text="Event Name"
+            android:layout_below="@+id/e_photo"
+            android:textColor="#fff"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

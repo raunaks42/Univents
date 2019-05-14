@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmationPage"
+    android:orientation="vertical"
+    android:background="@drawable/bggradient">
+
+    <ImageView
+        android:id="@+id/e_photo"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:src="@color/white" />
+
+    <TextView
+        android:id="@+id/e_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="Booking Confirmed:"/>
+
+    <TextView
+        android:id="@+id/e_date"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="Date:" />
+
+    <TextView
+        android:id="@+id/e_location"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="Location:"/>
+
+    <TextView
+        android:id="@+id/e_price"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="Price:"/>
+
+    <TextView
+        android:id="@+id/e_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:padding="20dp"
+        android:maxLines="7"
+        android:ellipsize="end"
+        android:text="Store the QR Code below for entry to the event" />
+
+    <ImageView
+        android:id="@+id/QR_Image"
+        android:layout_marginTop="410dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@string/app_name"
+        />
+</RelativeLayout>

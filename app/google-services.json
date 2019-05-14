@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "583351172340",
+    "firebase_url": "https://univents-a54f9.firebaseio.com",
+    "project_id": "univents-a54f9",
+    "storage_bucket": "univents-a54f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583351172340:android:d31d1a5917ce5eb1",
+        "android_client_info": {
+          "package_name": "com.lassi.univents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583351172340-0205797sdpbig0hlse3kndr712jk7d97.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lassi.univents",
+            "certificate_hash": "ff3fef14ab911a6df060b967840cc622e72395d1"
+          }
+        },
+        {
+          "client_id": "583351172340-6cs3vdfc2d4jmc37mfvc18968ei7mmve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsWDI7DEWL2L4vvSVK951XOHqnfB4rlAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583351172340-6cs3vdfc2d4jmc37mfvc18968ei7mmve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

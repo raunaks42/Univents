@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventPage"
+    android:orientation="vertical"
+    android:background="@drawable/bggradient">
+
+    <ImageView
+        android:id="@+id/e_photo"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="180dp"
+        android:src="@color/white"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/e_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:text="Event Name"/>
+
+    <TextView
+        android:id="@+id/e_date"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="Date:" />
+
+    <TextView
+        android:id="@+id/e_location"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="Location:"/>
+
+    <TextView
+        android:id="@+id/e_price"
+        android:inputType="numberDecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="Price:"/>
+
+    <TextView
+        android:id="@+id/e_desc"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:padding="20dp"
+        android:maxLines="6"
+        android:ellipsize="end"
+        android:text="" />
+
+
+    <Button
+        android:id="@+id/bookButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="490dp"
+        android:background="@drawable/button1"
+        android:text="Book Now!"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:padding="5sp"
+        android:textAlignment="center"
+        android:onClick="payOpt"
+        />
+
+
+    <Button
+        android:id="@+id/whatsappButton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginStart="245dp"
+        android:background="@drawable/button1"
+        android:drawableLeft="@drawable/whatsapp_icon"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:padding="5sp"
+        android:textAlignment="center"
+        android:onClick="whatsapp"
+        />
+
+</RelativeLayout>
