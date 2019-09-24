@@ -1,17 +1,4 @@
-#Univents
-
-### TEAM MEMBERS
-
-Raunak Sengupta (PES1201700072)
-
-Sarthak Gupta (PES1201700077)
-
-Dev Bhartra (PES1201700186)
-
-Dhruv Vohra (PES1201700281)
-
-
-# CollegeEventBookingApp
+# Univents
 An app that helps you book your tickets for various events hosted throughout the year in your college.
 
 
@@ -29,4 +16,5 @@ At the current stage we plan to implement the app for events in PES University o
 
 
 TODO
-1. PayTM integration
+1. PayTM integration <br/> <br/>
+Contributors: Raunak Sengupta, Dev Bhartra, Sarthak Gupta, Dhruv Vohra
